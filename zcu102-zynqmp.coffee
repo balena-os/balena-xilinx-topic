@@ -21,7 +21,7 @@ module.exports =
 		image: 'resin-image'
 		fstype: 'resinos-img'
 		version: 'yocto-rocko'
-		deployArtifact: 'balena-image-zcu102-zynqmp.resinos-img'
+		deployArtifact: 'resin-image-zcu102-zynqmp.resinos-img'
 		compressed: true
 
 	options: [ networkOptions.group ]
