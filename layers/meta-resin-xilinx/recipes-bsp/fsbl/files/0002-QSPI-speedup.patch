@@ -1,0 +1,11 @@
+--- a/lib/sw_apps/zynqmp_fsbl/src/xfsbl_qspi.c
++++ b/lib/sw_apps/zynqmp_fsbl/src/xfsbl_qspi.c
+@@ -842,7 +842,7 @@
+ 	/*
+ 	 * Set the pre-scaler for QSPI clock
+ 	 */
+-	Status = XQspiPsu_SetClkPrescaler(&QspiPsuInstance, XQSPIPSU_CLK_PRESCALE_8);
++	Status = XQspiPsu_SetClkPrescaler(&QspiPsuInstance, XQSPIPSU_CLK_PRESCALE_4);
+ 
+ 	if (Status != XFSBL_SUCCESS) {
+ 		UStatus = XFSBL_ERROR_QSPI_PRESCALER_CLK;
