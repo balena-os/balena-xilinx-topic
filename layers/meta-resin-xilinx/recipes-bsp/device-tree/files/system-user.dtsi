@@ -1,0 +1,87 @@
+/include/ "system-conf.dtsi"
+/include/ "px4-shm-overlay.dtsi"
+/ {
+	model = "ZynqMP ZCU102";
+	compatible = "xlnx,zynqmp-zcu102", "xlnx,zynqmp";
+	chosen {
+		bootargs = "earlycon earlyprintk console=ttyPS0,115200n8 clk_ignore_unused cpuidle.off=1 uio_pdrv_genirq.of_id=generic-uio";
+		stdout-path = "serial0:115200n8";
+	};
+	aliases {
+		ethernet0 = &gem1;
+		ethernet1 = &gem3;
+		serial0 = &uart1;
+		serial1 = &AUX_UART_0;
+		serial2 = &Xbee_UART;
+		serial3 = &VN300_UART;
+		serial4 = &uart0;
+		spi0 = &qspi;
+		spi1 = &spi0;
+	};
+};
+
+&gem1 {
+    status="okay";
+};
+
+&gem3 {
+    status="okay";
+};
+
+&uart1 {
+    status="okay";
+    port-number = <0x4>;
+};
+
+&FM_GPIO {
+    status="okay";
+};
+
+/********** Reserve that we allocate to the R5's **********/
+
+&AUX_SENSOR_IIC {
+    status="disabled";
+};
+
+&uart0 {
+    status="disabled";
+    port-number = <0x0>;
+};
+
+&AUX_UART_0 {
+    status="disabled";
+};
+
+&Xbee_UART {
+    status="disabled";
+};
+
+&CRITICAL_SENSOR_IIC {
+    status="disabled";
+};
+
+&VN300_UART {
+    status="disabled";
+    port-number = <0x3>;
+};
+
+&i2c0 {
+    status="disabled";
+};
+
+&i2c1 {
+    status="disabled";
+};
+
+&SF2_SPI {
+    status="disabled";
+};
+
+&spi0 {
+    status = "disabled";
+};
+
+&watchdog0 {
+    reset-on-timeout;
+};
+
