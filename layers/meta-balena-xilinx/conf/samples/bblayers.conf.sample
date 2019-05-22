@@ -16,6 +16,6 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-xilinx-tools \
     ${TOPDIR}/../layers/meta-balena/meta-resin-common \
     ${TOPDIR}/../layers/meta-balena/meta-resin-rocko \
-    ${TOPDIR}/../layers/meta-resin-xilinx \
+    ${TOPDIR}/../layers/meta-balena-xilinx \
     ${TOPDIR}/../layers/meta-rust \
     "
