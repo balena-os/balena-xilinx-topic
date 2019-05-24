@@ -22,7 +22,7 @@ index 5448ff4f91..d6f1a6c7ef 100644
  CONFIG_USE_BOOTARGS=y
  CONFIG_BOOTARGS="earlycon clk_ignore_unused"
 -CONFIG_BOOTCOMMAND="run $modeboot || run distro_bootcmd"
-+CONFIG_BOOTCOMMAND="run uenvboot"
++CONFIG_BOOTCOMMAND="run uenvboot || troltotlto"
  # CONFIG_DISPLAY_CPUINFO is not set
  # CONFIG_DISPLAY_BOARDINFO is not set
  CONFIG_SPL=y
