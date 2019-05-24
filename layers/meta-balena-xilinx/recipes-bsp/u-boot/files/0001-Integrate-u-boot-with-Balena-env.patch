@@ -1,0 +1,61 @@
+From cd8e4dd7a7d4d29fa1d9cb57282a2c8248b60ef1 Mon Sep 17 00:00:00 2001
+From: Sebastian Panceac <sebastian@balena.io>
+Date: Mon, 20 May 2019 15:00:24 +0200
+Subject: [PATCH] Integrate with balenaOS environment
+
+Set environment variables necessary to boot BalenaOS
+from SATA drive of m100 board
+
+Upstream-status: Inappropriate [configuration]
+Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+---
+ configs/xilinx_zynqmp_zcu102_rev1_0_defconfig |  2 +-
+ include/configs/xilinx_zynqmp.h               | 12 +++++-------
+ 2 files changed, 6 insertions(+), 8 deletions(-)
+
+diff --git a/configs/xilinx_zynqmp_zcu102_rev1_0_defconfig b/configs/xilinx_zynqmp_zcu102_rev1_0_defconfig
+index 5448ff4f91..d6f1a6c7ef 100644
+--- a/configs/xilinx_zynqmp_zcu102_rev1_0_defconfig
++++ b/configs/xilinx_zynqmp_zcu102_rev1_0_defconfig
+@@ -20,7 +20,7 @@ CONFIG_FIT_VERBOSE=y
+ CONFIG_SPL_LOAD_FIT=y
+ CONFIG_USE_BOOTARGS=y
+ CONFIG_BOOTARGS="earlycon clk_ignore_unused"
+-CONFIG_BOOTCOMMAND="run $modeboot || run distro_bootcmd"
++CONFIG_BOOTCOMMAND="run uenvboot"
+ # CONFIG_DISPLAY_CPUINFO is not set
+ # CONFIG_DISPLAY_BOARDINFO is not set
+ CONFIG_SPL=y
+diff --git a/include/configs/xilinx_zynqmp.h b/include/configs/xilinx_zynqmp.h
+index 3405cdbd56..2c3869f3f2 100644
+--- a/include/configs/xilinx_zynqmp.h
++++ b/include/configs/xilinx_zynqmp.h
+@@ -154,8 +154,8 @@
+ 	"kernel_size=0x1e00000\0" \
+ 	"fdt_size=0x80000\0" \
+ 	"bootenv=uEnv.txt\0" \
+-	"loadbootenv=load mmc $sdbootdev:$partid ${loadbootenv_addr} ${bootenv}\0" \
+-	"importbootenv=echo Importing environment from SD ...; " \
++	"loadbootenv=scsi scan; load scsi 0:1 ${loadbootenv_addr} ${bootenv}\0" \
++	"importbootenv=echo Importing environment from SATA drive ...; " \
+ 		"env import -t ${loadbootenv_addr} $filesize\0" \
+ 	"sd_uEnvtxt_existence_test=test -e mmc $sdbootdev:$partid /uEnv.txt\0" \
+ 	"sata_root=if test $scsidevs -gt 0; then setenv bootargs $bootargs root=/dev/sda rw rootfstype=ext4; fi\0" \
+@@ -170,11 +170,9 @@
+ 		  "sf read $kernel_addr $kernel_offset $kernel_size && " \
+ 		  "booti $kernel_addr - $fdt_addr\0" \
+ 	"uenvboot=" \
+-		"if run sd_uEnvtxt_existence_test; then " \
+-			"run loadbootenv; " \
+-			"echo Loaded environment from ${bootenv}; " \
+-			"run importbootenv; " \
+-		"fi; " \
++		"run loadbootenv; " \
++		"echo Loaded environment from ${bootenv}; " \
++		"run importbootenv; " \
+ 		"if test -n $uenvcmd; then " \
+ 			"echo Running uenvcmd ...; " \
+ 			"run uenvcmd; " \
+-- 
+2.17.1
+

@@ -6,6 +6,8 @@ BBMASK .= "meta-xilinx-tools/recipes-core/images/"
 # 100MB boot partition
 RESIN_BOOT_SIZE = "102400"
 
+RESIN_UBOOT_DEVICE_TYPES = "scsi"
+
 PREFERRED_PROVIDER_virtual/pmu-firmware = "pmu-firmware"
 PREFERRED_PROVIDER_virtual/boot-bin = "xilinx-bootbin"
 
