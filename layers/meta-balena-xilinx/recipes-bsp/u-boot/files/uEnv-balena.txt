@@ -1,8 +1,8 @@
 machine_name=zcu102-zynqmp
 kernel_load_address=0x80000
 devicetree_load_address=0x4000000
-kernel_spinor_offset=3c00000
-dtb_spinor_offset=5f00000
+kernel_spinor_offset=2040000
+dtb_spinor_offset=6040000
 loadkernel=sf read ${kernel_load_address} ${kernel_spinor_offset} 1e00000
 loaddtb=sf read ${devicetree_load_address} ${dtb_spinor_offset} 100000
 bootkernel=run loadkernel && run loaddtb && booti ${kernel_load_address} - ${devicetree_load_address}
