@@ -1,1 +1,26 @@
-[]
+- commits:
+    - subject: 'u-boot: Modift dtb and kernel addresses in flash'
+      hash: 6ee3055afe20b04265c1aa7539cc06969e907932
+      body: |
+        We adjust the addresses in flash where the kernel and dtb
+        reside in order to match the flash partitioning scheme
+      footer:
+        Changelog-entry: 'u-boot: Modift dtb and kernel addresses in flash'
+        changelog-entry: 'u-boot: Modift dtb and kernel addresses in flash'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+    - subject: 'device-tree: Add precompiled M100 dtb'
+      hash: a0c9cf6910c67ae15d4be1853de942c6b8411885
+      body: |
+        Add to the image the precompiled dtb for the M100 board until
+        we figure how to compile it from sources, within Xilinx environment.
+        This dtb was provided by GE
+      footer:
+        Changelog-entry: 'device-tree: Add precompiled M100 dtb'
+        changelog-entry: 'device-tree: Add precompiled M100 dtb'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+  version: 2.36.0+rev2
+  date: 2019-05-29T14:24:19.867Z
