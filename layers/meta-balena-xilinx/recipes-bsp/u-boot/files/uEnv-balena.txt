@@ -1,4 +1,4 @@
-machine_name=zcu102-zynqmp
+machine_name=ge-189408
 kernel_load_address=0x80000
 devicetree_load_address=0x4000000
 kernel_spinor_offset=2040000

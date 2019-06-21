@@ -4,7 +4,7 @@ Date: Mon, 20 May 2019 15:00:24 +0200
 Subject: [PATCH] Integrate with balenaOS environment
 
 Set environment variables necessary to boot BalenaOS
-from SATA drive of m100 board
+from SATA drive of ge-189408 board
 
 Upstream-status: Inappropriate [configuration]
 Signed-off-by: Sebastian Panceac <sebastian@balena.io>
