@@ -5,7 +5,7 @@
 # 2)	rm -rf ./components/plnx_workspace/.metadata ./components/plnx_workspace/fsbl*
 # 3)	petalinux-build -c fsbl
 
-do_configure_prepend() {
+do_configure_prepend_ge-189408() {
     if [ -d "${S}/patches" ]; then
         rm -rf ${S}/patches
     fi
@@ -14,7 +14,7 @@ do_configure_prepend() {
     fi
 }
 
-SRC_URI_append = " \
+SRC_URI_append_ge-189408 = " \
         file://0002-QSPI-speedup.patch \
         "
 
