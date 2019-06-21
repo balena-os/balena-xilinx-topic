@@ -1,4 +1,66 @@
 - commits:
+    - subject: 'u-boot: Add support for os_cmdline'
+      hash: ca4a5840ebe1d8a96ffd904767b83660ef04423f
+      body: ''
+      footer:
+        Changelog-entry: 'u-boot: Add support for os_cmdline'
+        changelog-entry: 'u-boot: Add support for os_cmdline'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+    - subject: 'u-boot: Apply Balena integration patches for ge-189408 machine'
+      hash: 7e36830b4761573b438d08cb9f06f80ecc4016fa
+      body: ''
+      footer:
+        Changelog-entry: 'u-boot: Apply Balena integration patches for ge-189408 machine'
+        changelog-entry: 'u-boot: Apply Balena integration patches for ge-189408 machine'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+    - subject: 'external-hdf: Rename from m100 to ge-189408'
+      hash: cf6acb45a02fcaab334a4dd7ea944e471bd303aa
+      body: |
+        Rename requested by customer
+      footer:
+        Changelog-entry: 'external-hdf: Rename from m100 to ge-189408'
+        changelog-entry: 'external-hdf: Rename from m100 to ge-189408'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+    - subject: 'device-tree: Rename from m100 to ge-189408'
+      hash: 6df9bb00d0c3c7ee96e00b13f9745888b2c3c8e7
+      body: |
+        Rename requested by customer
+      footer:
+        Changelog-entry: 'device-tree: Rename from m100 to ge-189408'
+        changelog-entry: 'device-tree: Rename from m100 to ge-189408'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+    - subject: Update meta-balena from v2.36.0 to v2.38.1
+      hash: b985087fd0de5a64f0bd7c94bc515b1ddbcf7fcd
+      body: ''
+      footer:
+        Changelog-entry: Update meta-balena from v2.36.0 to v2.38.1
+        changelog-entry: Update meta-balena from v2.36.0 to v2.38.1
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+    - subject: Change the poky submodule to our github mirror
+      hash: 76e24d0251d0c7b70d90c2d9abc43de5ea4e6df2
+      body: |
+        We do this change because we noticed frequent timeouts
+        in different parts of our build infrastructure when pulling
+        the poky repository from https://git.yoctoproject.org/git/poky
+      footer:
+        Changelog-entry: Change the poky submodule to our github mirror
+        changelog-entry: Change the poky submodule to our github mirror
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+  version: 2.38.1+rev1
+  date: 2019-06-21T13:44:34.395Z
+- commits:
     - subject: 'u-boot: Modift dtb and kernel addresses in flash'
       hash: 6ee3055afe20b04265c1aa7539cc06969e907932
       body: |
