@@ -1,0 +1,41 @@
+#!/bin/sh
+
+#
+# Script used by hostapps updater to flash bootloader onto internal media
+#
+
+set -o errexit
+
+# machine specific data
+bootbin_file="boot.bin"
+bootbin_device="/dev/mtd0"
+
+kernel_file="Image"
+kernel_device="/dev/mtd2"
+
+dtb_file="ge-189408.dtb"
+dtb_device="/dev/mtd3"
+
+update_files="bootbin kernel dtb"
+
+for i in $update_files; do
+        current_update_file=$(eval echo \$${i}_file)
+        current_device=$(eval echo \$${i}_device)
+
+        # calculate size and md5sum of the binary to update from the update bundle
+        update_size=$(ls -al /resin-boot/$current_update_file | awk '{print $5}')
+        update_md5sum=$(md5sum /resin-boot/$current_update_file | awk '{print $1'})
+
+        # calculate md5sum of the data already written to $device
+        dd if=$current_device of=/tmp/hup-temp bs=1M status=none
+        truncate -r /resin-boot/$current_update_file /tmp/hup-temp
+        existing_md5sum=$(md5sum /tmp/hup-temp | awk '{print $1}')
+        rm /tmp/hup-temp
+
+        if [ ! "$existing_md5sum" = "$update_md5sum" ]; then
+                echo "Flashing $current_update_file to $current_device"
+                flash_erase $current_device 0 0
+                flash_cp $current_update_file $current_device
+        fi
+done
+

@@ -6,6 +6,13 @@ RESIN_BOOT_PARTITION_FILES_zcu102-zynqmp = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     ${KERNEL_IMAGETYPE}-zynqmp-zcu102-rev1.0.dtb:/ \
     BOOT-zcu102-zynqmp.bin:/boot.bin \
-    m100.dtb:/ \
+    uEnv.txt:/ \
+"
+
+RESIN_IMAGE_BOOTLOADER_ge-189408 = "u-boot-xlnx"
+RESIN_BOOT_PARTITION_FILES_ge-189408 = " \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    BOOT-${MACHINE}.bin:/boot.bin \
+    ${MACHINE}.dtb:/ \
     uEnv.txt:/ \
 "

@@ -1,5 +1,6 @@
 # Supported machines
 #MACHINE ?= "zcu102-zynqmp"
+#MACHINE ?= "ge-189408"
 
 BBMASK .= "meta-xilinx-tools/recipes-core/images/"
 
