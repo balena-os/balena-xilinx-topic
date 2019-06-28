@@ -21,21 +21,21 @@ update_files="bootbin kernel dtb"
 for i in $update_files; do
         current_update_file=$(eval echo \$${i}_file)
         current_device=$(eval echo \$${i}_device)
+        hup_tmp_file="/dev/shm/hup-tmp"
 
-        # calculate size and md5sum of the binary to update from the update bundle
-        update_size=$(ls -al /resin-boot/$current_update_file | awk '{print $5}')
+        # calculate md5sum of the binary to update from the update bundle
         update_md5sum=$(md5sum /resin-boot/$current_update_file | awk '{print $1'})
 
         # calculate md5sum of the data already written to $device
-        dd if=$current_device of=/tmp/hup-temp bs=1M status=none
-        truncate -r /resin-boot/$current_update_file /tmp/hup-temp
-        existing_md5sum=$(md5sum /tmp/hup-temp | awk '{print $1}')
-        rm /tmp/hup-temp
+        dd if=$current_device of=$hup_tmp_file bs=1M status=none
+        truncate -r /resin-boot/$current_update_file $hup_tmp_file
+        existing_md5sum=$(md5sum $hup_tmp_file | awk '{print $1}')
+        rm $hup_tmp_file
 
         if [ ! "$existing_md5sum" = "$update_md5sum" ]; then
                 echo "Flashing $current_update_file to $current_device"
                 flash_erase $current_device 0 0
-                flash_cp $current_update_file $current_device
+                flashcp /resin-boot/$current_update_file $current_device
         fi
 done
 
