@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.38.1+rev2
+## (2019-06-28)
+
+* hostapp-update-hooks: Fix boot binaries update hook [Sebastian Panceac]
+* packagegroup-resin-connectivity: Remove unused firmware for more free space [Sebastian Panceac]
+
 # v2.38.1+rev1
 ## (2019-06-21)
 

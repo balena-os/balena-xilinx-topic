@@ -1,4 +1,40 @@
 - commits:
+    - subject: 'hostapp-update-hooks: Fix boot binaries update hook'
+      hash: 619cb73a099b8cfc43c0ea79584a3ddf9285f625
+      body: |
+        Replace the "/tmp" path with "/dev/shm" path for dumping
+        the content of mtd partitions.
+
+        Because the update hooks are running in the update container
+        and "/tmp" is not bind mounted in the container, a
+        "No space left on device" error will show up when running the hooks.
+
+        Because "/dev" is bind mounted inside the container, we use instead
+        "/dev/shm" path which is also a tmpfs.
+      footer:
+        Changelog-entry: 'hostapp-update-hooks: Fix boot binaries update hook'
+        changelog-entry: 'hostapp-update-hooks: Fix boot binaries update hook'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+    - subject: >-
+        packagegroup-resin-connectivity: Remove unused firmware for more free
+        space
+      hash: 3135a000a90df0f45454ce987bfb72625835dc64
+      body: ''
+      footer:
+        Changelog-entry: >-
+          packagegroup-resin-connectivity: Remove unused firmware for more free
+          space
+        changelog-entry: >-
+          packagegroup-resin-connectivity: Remove unused firmware for more free
+          space
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+  version: 2.38.1+rev2
+  date: 2019-06-28T10:04:30.816Z
+- commits:
     - subject: 'u-boot: Add support for os_cmdline'
       hash: ca4a5840ebe1d8a96ffd904767b83660ef04423f
       body: ''
