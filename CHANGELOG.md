@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.43.0+rev2
+## (2019-09-30)
+
+* Add ge-189408 icon [Sebastian Panceac]
+
 # v2.43.0+rev1
 ## (2019-09-24)
 

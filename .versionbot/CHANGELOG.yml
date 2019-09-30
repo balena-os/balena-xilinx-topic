@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add ge-189408 icon
+      hash: 737189545a80a242ba4c28873f183b64e6a7e353
+      body: ''
+      footer:
+        Changelog-entry: Add ge-189408 icon
+        changelog-entry: Add ge-189408 icon
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+  version: 2.43.0+rev2
+  date: 2019-09-30T08:11:24.802Z
+- commits:
     - subject: 'meta-balena: Update submodule to v2.43.0'
       hash: 9f1104e8d5f9bd924663ca12e54aa329578d66e8
       body: |
