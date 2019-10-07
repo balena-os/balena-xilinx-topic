@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'layers/meta-balena: Update to v2.44.0'
+      hash: 31a8e5310306870807eb4a6ce6b06b4f4e1612a8
+      body: |
+        Update meta-blena from 2.43.0 to 2.44.0
+      footer:
+        Changelog-entry: 'layers/meta-balena: Update to v2.44.0'
+        changelog-entry: 'layers/meta-balena: Update to v2.44.0'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+  version: 2.44.0+rev1
+  date: 2019-10-04T09:25:47.372Z
+- commits:
     - subject: Add ge-189408 icon
       hash: 737189545a80a242ba4c28873f183b64e6a7e353
       body: ''

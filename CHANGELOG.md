@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.44.0+rev1
+## (2019-10-04)
+
+* layers/meta-balena: Update to v2.44.0 [Sebastian Panceac]
+
 # v2.43.0+rev2
 ## (2019-09-30)
 
