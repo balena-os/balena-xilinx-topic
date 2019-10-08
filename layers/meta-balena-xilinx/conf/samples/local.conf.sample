@@ -4,6 +4,9 @@
 
 BBMASK .= "meta-xilinx-tools/recipes-core/images/"
 
+# Remove reset at commands timeout in u-boot
+CONFIG_BOOT_RETRY_TIME = "-1"
+
 # 100MB boot partition
 RESIN_BOOT_SIZE = "102400"
 
