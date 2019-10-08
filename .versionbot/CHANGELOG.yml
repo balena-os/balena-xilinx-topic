@@ -1,4 +1,18 @@
 - commits:
+    - subject: 'local.conf: Set CONFIG_RESET_TO_RETRY to disabled'
+      hash: 86c98c1c0001dbba1837ed2b10027e211e9f93f1
+      body: |
+        This board requires manual flashing steps in u-boot
+        We need to have infinite u-boot commands timeout
+      footer:
+        Changelog-entry: 'local.conf: Set CONFIG_RESET_TO_RETRY to disabled'
+        changelog-entry: 'local.conf: Set CONFIG_RESET_TO_RETRY to disabled'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+  version: 2.44.0+rev2
+  date: 2019-10-07T13:31:21.736Z
+- commits:
     - subject: 'layers/meta-balena: Update to v2.44.0'
       hash: 31a8e5310306870807eb4a6ce6b06b4f4e1612a8
       body: |

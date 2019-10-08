@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.44.0+rev2
+## (2019-10-07)
+
+* local.conf: Set CONFIG_RESET_TO_RETRY to disabled [Sebastian Panceac]
+
 # v2.44.0+rev1
 ## (2019-10-04)
 
