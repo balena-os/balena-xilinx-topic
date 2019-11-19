@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.5.2
+      hash: c40640ccba2f89b4ffeccf1eb5361f3268712fd8
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.5.2
+        changelog-entry: Update balena-yocto-scripts to v1.5.2
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.44.0+rev3
+  date: 2019-11-19T11:53:13.779Z
+- commits:
     - subject: 'local.conf: Set CONFIG_RESET_TO_RETRY to disabled'
       hash: 86c98c1c0001dbba1837ed2b10027e211e9f93f1
       body: |
