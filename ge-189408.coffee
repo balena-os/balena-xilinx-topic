@@ -8,6 +8,7 @@ module.exports =
 	name: 'GE-189408'
 	arch: 'aarch64'
 	state: 'released'
+	private: true
 
 	instructions: commonImg.instructions
 	gettingStartedLink:

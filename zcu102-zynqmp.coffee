@@ -8,6 +8,7 @@ module.exports =
 	name: 'Xilinx ZynqMP ZCU102'
 	arch: 'aarch64'
 	state: 'released'
+	private: true
 
 	instructions: commonImg.instructions
 	gettingStartedLink:
