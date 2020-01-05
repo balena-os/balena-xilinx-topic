@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.44.0+rev4
+## (2020-01-05)
+
+* Mark zcu102-zynqmp as private in the .coffee file [Florin Sarbu]
+* Mark ge-189408 as private in the .coffee file [Florin Sarbu]
+
 # v2.44.0+rev3
 ## (2019-11-19)
 

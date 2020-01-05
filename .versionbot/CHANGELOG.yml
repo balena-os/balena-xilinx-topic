@@ -1,4 +1,25 @@
 - commits:
+    - subject: Mark zcu102-zynqmp as private in the .coffee file
+      hash: d6f33d078225dbb75feaa721ac3277daa7c282de
+      body: ''
+      footer:
+        Changelog-entry: Mark zcu102-zynqmp as private in the .coffee file
+        changelog-entry: Mark zcu102-zynqmp as private in the .coffee file
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+    - subject: Mark ge-189408 as private in the .coffee file
+      hash: 56ccb214e04f27f2e557df0102f7197909e9109d
+      body: ''
+      footer:
+        Changelog-entry: Mark ge-189408 as private in the .coffee file
+        changelog-entry: Mark ge-189408 as private in the .coffee file
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.44.0+rev4
+  date: 2020-01-05T15:37:46.804Z
+- commits:
     - subject: Update balena-yocto-scripts to v1.5.2
       hash: c40640ccba2f89b4ffeccf1eb5361f3268712fd8
       body: ''
