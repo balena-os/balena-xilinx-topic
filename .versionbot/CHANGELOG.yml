@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update meta-rust to include 1.36
+      hash: 80f79ab67e83471acdec93de95e3a68298c92dfe
+      body: ''
+      footer:
+        Changelog-entry: Update meta-rust to include 1.36
+        changelog-entry: Update meta-rust to include 1.36
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.44.0+rev5
+  date: 2020-02-11T04:52:04.740Z
+- commits:
     - subject: Mark zcu102-zynqmp as private in the .coffee file
       hash: d6f33d078225dbb75feaa721ac3277daa7c282de
       body: ''
