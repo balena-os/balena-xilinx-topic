@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.5.6
+      hash: 1b34e9793114cdb459bccc72b4599492d77cd47e
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.5.6
+        changelog-entry: Update balena-yocto-scripts to v1.5.6
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+    - subject: 'layers/meta-balena: Update to v2.47.1'
+      hash: 7f653bb64e7221e25c70100ae11689745015f55b
+      body: |
+        Update meta-blena from 2.44.0 to 2.47.1
+      footer:
+        Changelog-entry: 'layers/meta-balena: Update to v2.47.1'
+        changelog-entry: 'layers/meta-balena: Update to v2.47.1'
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.47.1+rev1
+  date: 2020-03-09T15:35:55.669Z
+- commits:
     - subject: Update meta-rust to include 1.36
       hash: 80f79ab67e83471acdec93de95e3a68298c92dfe
       body: ''
