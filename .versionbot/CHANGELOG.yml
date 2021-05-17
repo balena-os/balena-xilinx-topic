@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update host tools to replace docker with balena-engine in build process
+      hash: b1bc2a19c05db84119ddce6329bde9bd305a86db
+      body: >
+        Add a set of host tools dependencies to use rootless balena-engine.
+
+
+        For overlay based devices, the docker host tool will be removed once the
+
+        meta-balena supports building with balena-engine.
+
+
+        For devcies that use aufs we leave docker as rootless is not supported
+        over
+
+        aufs, and we will remove it once aufs devices are deprecated.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: >-
+          Update host tools to replace docker with balena-engine in build
+          process
+        changelog-entry: >-
+          Update host tools to replace docker with balena-engine in build
+          process
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.47.1+rev2
+  date: 2021-05-17T12:43:57.972Z
+- commits:
     - subject: Update balena-yocto-scripts to v1.5.6
       hash: 1b34e9793114cdb459bccc72b4599492d77cd47e
       body: ''
