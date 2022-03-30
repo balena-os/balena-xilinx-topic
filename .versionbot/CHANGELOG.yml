@@ -1,1 +1,15 @@
-[]
+- commits:
+    - subject: Update meta-balena from v2.31.0 to v2.31.3
+      hash: c8b36dcc6da8600d0087d1f37d5cf8888d554d56
+      body: |
+        Update meta-balena from 2.31.0 to 2.31.3
+      footer:
+        Changelog-entry: Update meta-balena from v2.31.0 to v2.31.3
+        changelog-entry: Update meta-balena from v2.31.0 to v2.31.3
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+      nested: []
+  version: 2.31.3
+  title: "'Configure Renovate'"
+  date: 2022-03-30T15:13:36.028Z
