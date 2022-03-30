@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 190305d322be4db65c03640eacf5ed21928dcbf9
+      hash: fe3b728324c0bff36e4abd89cc6de6f96d4046b1
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 190305d322be4db65c03640eacf5ed21928dcbf9
+        changelog-entry: Update balena-yocto-scripts to 190305d322be4db65c03640eacf5ed21928dcbf9
+      author: Renovate Bot
+      nested: []
+  version: 2.31.3+rev1
+  title: "'Update balena-yocto-scripts digest to 190305d'"
+  date: 2022-03-30T15:58:59.432Z
+- commits:
     - subject: Update meta-balena from v2.31.0 to v2.31.3
       hash: c8b36dcc6da8600d0087d1f37d5cf8888d554d56
       body: |
