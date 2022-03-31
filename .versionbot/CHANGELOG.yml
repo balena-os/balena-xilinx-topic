@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to fd040a08031ae9f52a520209cb660474058c3688
+      hash: 5f7b098eb7401d67695c19353f5d1a3b00fed389
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to fd040a08031ae9f52a520209cb660474058c3688
+        changelog-entry: Update layers/meta-balena to fd040a08031ae9f52a520209cb660474058c3688
+      author: Renovate Bot
+      nested: []
+  version: 2.95.11
+  title: "'Update layers/meta-balena digest to fd040a0'"
+  date: 2022-03-31T14:17:00.549Z
+- commits:
     - subject: Update layers/meta-balena to f03d6846ff98a70c9367f63041367db9a95efee9
       hash: 4b9631ec89ac80b316e28c9c12df2d6fd8f46a5b
       body: Update layers/meta-balena
