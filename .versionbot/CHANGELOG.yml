@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to ff9465a20e32843b3b01ec3efa0d8a5390e6d66c
+      hash: 9a726b56fe07ae39390d4d884701b60936ed6841
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to ff9465a20e32843b3b01ec3efa0d8a5390e6d66c
+        changelog-entry: Update balena-yocto-scripts to ff9465a20e32843b3b01ec3efa0d8a5390e6d66c
+      author: Renovate Bot
+      nested: []
+  version: 2.95.15+rev2
+  title: "'Update balena-yocto-scripts digest to ff9465a'"
+  date: 2022-04-14T18:11:24.952Z
+- commits:
     - subject: Update balena-yocto-scripts to 7bd3088484fa06c297e8f6c8abf5d0a1916654f5
       hash: ce22690c6b3ee8c3aeb1361a25488ed9c01250c1
       body: Update balena-yocto-scripts
