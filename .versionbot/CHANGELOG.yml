@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to b7490ca45f22591b1e6f7fddc1bf5853f373c125
+      hash: 36924c6455017cd6a32d3a4d72d7792c4b10c5e9
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b7490ca45f22591b1e6f7fddc1bf5853f373c125
+        changelog-entry: Update layers/meta-balena to b7490ca45f22591b1e6f7fddc1bf5853f373c125
+      author: Renovate Bot
+      nested: []
+  version: 2.96.0
+  title: "'Update layers/meta-balena digest to b7490ca'"
+  date: 2022-04-22T20:39:00.861Z
+- commits:
     - subject: Update balena-yocto-scripts to 63e2b61fa462be4f68a2b7d8ca5084fd2d7d09b2
       hash: 634e37e389546952e6960c52a603f0b1c8a80f7c
       body: Update balena-yocto-scripts
