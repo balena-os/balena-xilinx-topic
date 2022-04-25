@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to b6b6fc6c137e42a4184d46432c23cd20a35edd6c
+      hash: 7fe357d69df7b183b86a7296cde5babea82fdcdb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b6b6fc6c137e42a4184d46432c23cd20a35edd6c
+        changelog-entry: Update layers/meta-balena to b6b6fc6c137e42a4184d46432c23cd20a35edd6c
+      author: Renovate Bot
+      nested: []
+  version: 2.98.2
+  title: "'Update layers/meta-balena digest to b6b6fc6'"
+  date: 2022-04-25T16:37:44.077Z
+- commits:
     - subject: Update layers/meta-balena to 54c754e97eb0ba3dcb4119908cc368e200c2f4ca
       hash: 59b4e4ac1cbaf6f775cae269020325eb1aa22855
       body: Update layers/meta-balena
