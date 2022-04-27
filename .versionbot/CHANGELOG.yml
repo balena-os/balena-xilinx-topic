@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 798e236d25380d70e7be09d8d5dbb0349c05f413
+      hash: 55216e1be79c31a14319e8a2f912470676a6f661
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 798e236d25380d70e7be09d8d5dbb0349c05f413
+        changelog-entry: Update layers/meta-balena to 798e236d25380d70e7be09d8d5dbb0349c05f413
+      author: Renovate Bot
+      nested: []
+  version: 2.98.6
+  title: "'Update layers/meta-balena digest to 798e236'"
+  date: 2022-04-27T10:40:58.760Z
+- commits:
     - subject: Update layers/meta-balena to edda207aee705431cd02443bdfe8d6271228b96d
       hash: b3caf252556064addd38ebef3f099db0a8045e43
       body: Update layers/meta-balena
