@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to fc45fb36cc79e5b7eab1017f4e5713773aba7ed1
+      hash: b2b3e3d700dc7c50841ab6459147af6c470c6f4e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to fc45fb36cc79e5b7eab1017f4e5713773aba7ed1
+        changelog-entry: Update layers/meta-balena to fc45fb36cc79e5b7eab1017f4e5713773aba7ed1
+      author: Renovate Bot
+      nested: []
+  version: 2.98.9
+  title: "'Update layers/meta-balena digest to fc45fb3'"
+  date: 2022-04-28T16:53:32.967Z
+- commits:
     - subject: Update balena-yocto-scripts to fe688d2bfbb121401830ec804fa423619048a224
       hash: fc0799703d8b5afd1507dc9da080457fa62e9763
       body: Update balena-yocto-scripts
