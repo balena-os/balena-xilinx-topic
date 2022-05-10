@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+      hash: 02f14dd91957d5b5c2c38787b0a515ee167ec1f8
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+        changelog-entry: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+      author: Renovate Bot
+      nested: []
+  version: 2.98.19
+  title: "'Update layers/meta-balena digest to 3018f1d'"
+  date: 2022-05-10T22:52:08.343Z
+- commits:
     - subject: Update layers/meta-balena to c46ab989cf8c688714bd7d3b7961e9d779cb7566
       hash: 6e3c6de3b8090829f3017b842a27f450dee3f7f9
       body: Update layers/meta-balena
