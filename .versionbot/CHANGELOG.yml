@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+      hash: 980195b765d223f294738bb7fdc4278137109fbc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+        changelog-entry: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+      author: Renovate Bot
+      nested: []
+  version: 2.98.24
+  title: "'Update layers/meta-balena digest to 5804aab'"
+  date: 2022-05-16T04:07:05.651Z
+- commits:
     - subject: Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab
       hash: 12ecfefc85511585d507a30817d410565c6ba26b
       body: Update layers/meta-balena
