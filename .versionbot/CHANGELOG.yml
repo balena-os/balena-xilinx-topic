@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4
+      hash: 3d763ce590c93bc905338868e1291b8fac1a555d
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4
+        changelog-entry: Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4
+      author: Renovate Bot
+      nested: []
+  version: 2.98.28+rev1
+  title: "'Update balena-yocto-scripts digest to ae2cc2c'"
+  date: 2022-05-20T20:16:48.088Z
+- commits:
     - subject: Update layers/meta-balena to 7e98e8f49aee1f5538da16ff564c7d8fb009800e
       hash: c58d1103ad9440dba5776ef8cc4d5d81e6de3411
       body: Update layers/meta-balena
