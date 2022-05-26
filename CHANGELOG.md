@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.98.30+rev1
+## (2022-05-26)
+
+* Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0 [Renovate Bot]
+
 # v2.98.30
 ## (2022-05-26)
 
