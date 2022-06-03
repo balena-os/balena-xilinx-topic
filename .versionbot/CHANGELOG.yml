@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+      hash: e31cc0b78804197bbfb987b06d81c0290ac701af
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+        changelog-entry: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+      author: Renovate Bot
+      nested: []
+  version: 2.98.37
+  title: "'Update layers/meta-balena digest to bef2872'"
+  date: 2022-06-03T23:04:24.701Z
+- commits:
     - subject: Update layers/meta-balena to 17a4e839adefeedbe603b9b007800656588c6d77
       hash: 3fe9373582a0b58f2c2d2decf67d1ac1fc6d76ce
       body: Update layers/meta-balena
