@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to efd8306a7a838b600d2cbf77a4ecfbd30ba9324a
+      hash: f62bed49dd98f25d9d15b34c304de28b07f2fc6d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to efd8306a7a838b600d2cbf77a4ecfbd30ba9324a
+        changelog-entry: Update layers/meta-balena to efd8306a7a838b600d2cbf77a4ecfbd30ba9324a
+      author: Renovate Bot
+      nested: []
+  version: 2.98.40
+  title: "'Update layers/meta-balena digest to efd8306'"
+  date: 2022-06-04T21:37:32.055Z
+- commits:
     - subject: Update layers/meta-balena to 82f6128a170dd68e671e30278a4f98398f5d1034
       hash: 34ab6cc49585c2035d47cf9f1b30b12d58d742f8
       body: Update layers/meta-balena
