@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to dafd28999c58f4b4ae7e6fb28a4923e0b65d4a54
+      hash: f27d944c3b2076027dd9c71875aa8670c2488766
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dafd28999c58f4b4ae7e6fb28a4923e0b65d4a54
+        changelog-entry: Update layers/meta-balena to dafd28999c58f4b4ae7e6fb28a4923e0b65d4a54
+      author: Renovate Bot
+      nested: []
+  version: 2.98.41
+  title: "'Update layers/meta-balena digest to dafd289'"
+  date: 2022-06-05T22:33:07.590Z
+- commits:
     - subject: Update layers/meta-balena to efd8306a7a838b600d2cbf77a4ecfbd30ba9324a
       hash: f62bed49dd98f25d9d15b34c304de28b07f2fc6d
       body: Update layers/meta-balena
