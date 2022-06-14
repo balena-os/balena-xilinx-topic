@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+      hash: cdc65ecd046f2d1d2e7eb873cd894b95a9466b42
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+        changelog-entry: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+      author: Renovate Bot
+      nested: []
+  version: 2.99.2
+  title: "'Update layers/meta-balena digest to ee8110b'"
+  date: 2022-06-14T19:24:19.384Z
+- commits:
     - subject: Update layers/meta-balena to 1aee182ad517f4dd6f24c643bdee1b4db883ffb3
       hash: 4ba62c5adf90eb9b28b890ce112c9a6ced89b2a3
       body: Update layers/meta-balena
