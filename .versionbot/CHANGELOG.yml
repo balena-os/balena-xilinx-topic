@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0
+      hash: 430494e0050b63c33908778185b32395286f5968
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0
+        changelog-entry: Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0
+      author: renovate[bot]
+      nested: []
+  version: 2.99.22
+  title: "'Update: update layers/meta-balena digest to ecbbdd0'"
+  date: 2022-06-28T01:01:19.236Z
+- commits:
     - subject: Update layers/meta-balena to b266b1a4ebeb269145192f8412fa12c902a30812
       hash: 62d91b75ca2dcab1d905e3340f966f5b66dc1600
       body: Update layers/meta-balena
