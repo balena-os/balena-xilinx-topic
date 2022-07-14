@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to d824f26f501ed881ae048c709f14792ee8d657ca
+      hash: 9c2aa41421039dd7dfe28d8a8ee959b6941a6975
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d824f26f501ed881ae048c709f14792ee8d657ca
+        changelog-entry: Update layers/meta-balena to d824f26f501ed881ae048c709f14792ee8d657ca
+      author: renovate[bot]
+      nested: []
+  version: 2.100.0
+  title: "'Update layers/meta-balena digest to d824f26'"
+  date: 2022-07-14T17:56:37.164Z
+- commits:
     - subject: Update layers/meta-balena to 34b2d6eb5407194f5bd7151176c6fd252c98d308
       hash: b37d33a9214a8ea2cb3db87d05d10e7508795f63
       body: Update layers/meta-balena
