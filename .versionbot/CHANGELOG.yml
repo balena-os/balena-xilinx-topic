@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to c34abd0168622b7766004de8a27f0e96f556b035
+      hash: d9d183bba823f97cac25cce5e0b86aa336a3bdc7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c34abd0168622b7766004de8a27f0e96f556b035
+        changelog-entry: Update layers/meta-balena to c34abd0168622b7766004de8a27f0e96f556b035
+      author: renovate[bot]
+      nested: []
+  version: 2.100.3
+  title: "'Update layers/meta-balena digest to c34abd0'"
+  date: 2022-07-21T02:07:25.207Z
+- commits:
     - subject: Update build and deploy workflow to support ESR tags
       hash: 69b01e3acfa3c8e699842d21864cb6a28ecc2b1c
       body: |
