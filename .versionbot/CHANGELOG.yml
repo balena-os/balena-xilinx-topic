@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to 9b7bbeaffe87b8dab49eb98163188c77c1934f8e
+      hash: b3be59a2d2a5c71d1ca2abfe873730100f7b8de3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9b7bbeaffe87b8dab49eb98163188c77c1934f8e
+        changelog-entry: Update layers/meta-balena to 9b7bbeaffe87b8dab49eb98163188c77c1934f8e
+      author: renovate[bot]
+      nested: []
+  version: 2.100.8
+  title: "'Update layers/meta-balena digest to 9b7bbea'"
+  date: 2022-07-22T20:00:08.113Z
+- commits:
     - subject: Update layers/meta-balena to 39681bd5d8a584784c385a042a707bf1c35b2369
       hash: 341601bbaa25f185b00ad3ee736ae12a3071d3d9
       body: Update layers/meta-balena
