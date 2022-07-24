@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      hash: 7a2edc8df891b715cd8b0c489dc739ad20b01dc2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+        changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      author: renovate[bot]
+      nested: []
+  version: 2.100.10
+  title: "'Update layers/meta-balena digest to dd080e1'"
+  date: 2022-07-24T17:10:13.294Z
+- commits:
     - subject: Update layers/meta-balena to a2ed558c6d2d8362da0b8242ca3b54d1b49acb9c
       hash: f65dfdb765302be27b2722de1164c87dd87a9853
       body: Update layers/meta-balena
