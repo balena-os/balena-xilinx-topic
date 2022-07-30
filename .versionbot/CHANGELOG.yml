@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-balena to c233b4107fc25b08e963e2419b40263409d2de9e
+      hash: 4607dc4ec191db1fb410b83d5c6da6a939d7d1b1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c233b4107fc25b08e963e2419b40263409d2de9e
+        changelog-entry: Update layers/meta-balena to c233b4107fc25b08e963e2419b40263409d2de9e
+      author: renovate[bot]
+      nested: []
+  version: 2.101.0
+  title: "'Update layers/meta-balena digest to c233b41'"
+  date: 2022-07-30T18:54:32.211Z
+- commits:
     - subject: Update layers/meta-balena to e646204762ac7abb2407a0e1dba8689aeade70f4
       hash: 7eb8c602604464e614f0524ca010f4edadf896f8
       body: Update layers/meta-balena
