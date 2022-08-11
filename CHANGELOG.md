@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.101.4
+## (2022-08-11)
+
+* Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78 [renovate[bot]]
+* Update layers/meta-balena to 9d73da96e59bcbef4b626a090436caefb2834584 [renovate[bot]]
+
 # v2.101.3
 ## (2022-08-06)
 
